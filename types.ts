@@ -4,7 +4,7 @@ export interface Product {
   name: string;
   price: string;
   isFeatured: boolean;
-  size: Size;
+  type: Type;
   color: Color;
   images: Image[]
 };
@@ -26,7 +26,7 @@ export interface Category {
   billboard: Billboard;
 };
 
-export interface Size {
+export interface Type {
   id: string;
   name: string;
   value: string;
